@@ -1,0 +1,14 @@
+
+import java.util.Scanner;
+public class code1{
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Enter Otained Marks");
+        float obt = scan.nextFloat();
+        System.out.println("Enter Maximum Marks");
+        float mm = scan.nextFloat();
+
+        float per = (obt / mm) * 100;
+        System.out.println("Percentage = " + per);
+      }
+    }
