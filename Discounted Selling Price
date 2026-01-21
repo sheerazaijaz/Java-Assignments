@@ -1,0 +1,19 @@
+
+import java.util.Scanner;
+
+public class code3 {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+
+        System.out.println("Enter Original Price");
+        double org = scan.nextDouble();
+
+        System.out.println("Enter Discount Percentage");
+        double disc = scan.nextDouble();
+
+        double discountAmount = (org * disc) / 100;
+        double discountedPrice = org - discountAmount;
+
+        System.out.println("Discount Selling Price = " + discountedPrice);
+    }
+}
